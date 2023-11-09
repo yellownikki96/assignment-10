@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<string.h>
-#include<conio.h>
 struct st_rec
 {
     char name[100];
