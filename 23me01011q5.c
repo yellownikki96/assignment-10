@@ -57,7 +57,6 @@ int main() {
     for (int i = 0; i < 15; i++)
     {
         printf("Enter the name of customer %d: ",i+1);
-        getchar();
         gets(customers[i].name);
         printf("Enter his/her account number: ");
         scanf("%d",&customers[i].accountNumber);
